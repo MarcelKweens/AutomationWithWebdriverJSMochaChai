@@ -1,0 +1,33 @@
+{
+  "name": "mochachaiwebdrivejs",
+  "version": "1.0.0",
+  "description": "webdriverjs samples",
+  "main": "allevaLogin.js",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chromedriver": "^2.38.3",
+    "mocha": "^5.2.0",
+    "mocha-allure-reporter": "^1.4.0",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mvn clean ; mocha ./tests/allevaLogin.js --no-timeouts -R mocha-allure-reporter ; mvn site"
+  },
+  "author": "rohitnegi548@gmail.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohinegi548/AutomationWithWebdriverJSMochaChai.git"
+  },
+  "keywords": [
+    "webdriver",
+    "mocha",
+    "chaijs",
+    "allure"
+  ],
+  "bugs": {
+    "url": "https://github.com/rohinegi548/AutomationWithWebdriverJSMochaChai/issues"
+  },
+  "homepage": "https://github.com/rohinegi548/AutomationWithWebdriverJSMochaChai#readme"
+}
