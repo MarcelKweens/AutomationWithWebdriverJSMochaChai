@@ -2,7 +2,7 @@
   "name": "mochachaiwebdrivejs",
   "version": "1.0.0",
   "description": "webdriverjs samples",
-  "main": "allevaLogin.js",
+  "main": "Login.js",
   "dependencies": {
     "chai": "^4.1.2",
     "chromedriver": "^2.38.3",
@@ -12,7 +12,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "mvn clean ; mocha ./tests/allevaLogin.js --no-timeouts -R mocha-allure-reporter ; mvn site"
+    "test": "mvn clean ; mocha ./tests/Login.js --no-timeouts -R mocha-allure-reporter ; mvn site"
   },
   "author": "rohitnegi548@gmail.com",
   "license": "ISC",
